@@ -1,0 +1,22 @@
+% Setup folder with TTP instance files (default = "Instance").
+TTP_Instance_Folder = "instances";
+
+% Setup target instances of TTP problems that should be solved (default = "0").
+% 0 = Running all files below
+% 1 = "a280_n279_bounded-strongly-corr_01.ttp"
+% 2 = "a280_n1395_uncorr-similar-weights_05.ttp"
+% 3 = "a280_n2790_uncorr_10.ttp"
+% 4 = "fnl4461_n4460_bounded-strongly-corr_01.ttp"
+% 5 = "fnl4461_n22300_uncorr-similar-weights_05.ttp"
+% 6 = "fnl4461_n44600_uncorr_10.ttp"
+% 7 = "pla33810_n33809_bounded-strongly-corr_01.ttp"
+% 8 = "pla33810_n169045_uncorr-similar-weights_05.ttp"
+% 9 = "pla33810_n338090_uncorr_10.ttp"
+Input_Instance = "0";
+
+
+% Setup stopping criterion: number of evaluations without improvement (default = "10000" times).
+Number_of_Evaluation = "10000";
+
+% Setup stopping criterion: time in milliseconds (default = "600000" ms).
+Time_Limit = "600000";
